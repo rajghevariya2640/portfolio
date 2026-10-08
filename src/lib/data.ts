@@ -51,8 +51,8 @@ export const skills = [
 ];
 
 export const projects: { name: string; url: string; tags: string[]; image?: string; fullPage?: { src: string; width: number; height: number } }[] = [
-  { name: "Vasana AI", url: "https://vasana.ai/", tags: ["AI Interface", "Modern Web Design", "Responsive UI"] },
-  { name: "SmartConvo", url: "https://smartconvo.io/", tags: ["SaaS Dashboard", "Conversational AI UI"] },
+  { name: "Vasana AI", url: "https://vasana.ai/", tags: ["AI Interface", "Modern Web Design", "Responsive UI"], fullPage: { src: "/projects/vasana-full.png", width: 1920, height: 10745 } },
+  { name: "Booksmart", url: "https://booksmart.store/", tags: ["E-commerce", "Online Bookstore UI"], fullPage: { src: "/projects/booksmart-full.png", width: 1920, height: 3775 } },
   { name: "Pooki Game", url: "https://pookigame.com/", tags: ["Interactive Gaming UI", "Web Design"], fullPage: { src: "/projects/pooki-game-full.jpg", width: 1920, height: 11288 } },
   { name: "DataVizz", url: "https://datavizz.in/", tags: ["Data Analytics", "Interactive UI Components"], fullPage: { src: "/projects/datavizz-full.png", width: 1920, height: 6776 } },
   { name: "The Data Privacy Cloud", url: "https://thedataprivacy.cloud/", tags: ["Cloud Tech", "Enterprise Web Interface"], fullPage: { src: "/projects/data-privacy-cloud-full.png", width: 1920, height: 7619 } },
